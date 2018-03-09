@@ -208,10 +208,10 @@ aside.left-panel {
                 }
                 .menu-icon {
                     color: #8b939b;
-                    float: left;
+                    float: right;
                     margin-top: 8px;
                     width: 55px;
-                    text-align: left;
+                    text-align: right;
                     z-index: 9;
                 }
                 .menu-title-text {
@@ -231,14 +231,14 @@ aside.left-panel {
                 a {
                     line-height: 30px;
                     &:before {
-                        content: "\f105";
+                        content: "\f104";
                         color: #c8c9ce;
                         font-family: 'Fontawesome';
                         font-size: 16px;
                         position: absolute;
                         top: 10px;
-                        right: 0;
-                        text-align: right;
+                        left: 0;
+                        text-align: left;
 
                         -webkit-transition: all .25s ease;
                         -moz-transition: all .25s ease;

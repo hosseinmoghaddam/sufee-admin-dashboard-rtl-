@@ -20,3 +20,18 @@ body {
     direction: rtl;
     font-family: 'Samim', serif;
 }
+div[class*="col-"] {
+    float: right;
+}
+#language-select {
+    float: left;
+    margin: 7px 0 0 20px;
+}
+
+.menutoggle {
+    margin: -2px -59px 0 20px;
+
+}
+.navbar-nav {
+    padding-right: 0;
+}

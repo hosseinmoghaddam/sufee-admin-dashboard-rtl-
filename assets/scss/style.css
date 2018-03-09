@@ -905,10 +905,10 @@ aside.left-panel {
           color: #fff !important; }
         .navbar .navbar-nav li > a .menu-icon {
           color: #8b939b;
-          float: left;
+          float: right;
           margin-top: 8px;
           width: 55px;
-          text-align: left;
+          text-align: right;
           z-index: 9; }
         .navbar .navbar-nav li > a .menu-title-text {
           font-size: 14px; }
@@ -924,14 +924,14 @@ aside.left-panel {
         .navbar .navbar-nav li.menu-item-has-children a {
           line-height: 30px; }
           .navbar .navbar-nav li.menu-item-has-children a:before {
-            content: "\f105";
+            content: "\f104";
             color: #c8c9ce;
             font-family: 'Fontawesome';
             font-size: 16px;
             position: absolute;
             top: 10px;
-            right: 0;
-            text-align: right;
+            left: 0;
+            text-align: left;
             -webkit-transition: all .25s ease;
             -moz-transition: all .25s ease;
             -ms-transition: all .25s ease;
