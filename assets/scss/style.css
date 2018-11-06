@@ -952,17 +952,19 @@ aside.left-panel {
             float: left;
             padding: 0;
             position: absolute;
-            left: 0;
+            right: 30px;
             font-size: 14px;
             top: 9px; }
           .navbar .navbar-nav li.menu-item-has-children .sub-menu a {
-            padding: 2px 0 2px 30px; }
+            padding: 2px 60px 2px 0;
+            text-align: right;}
             .navbar .navbar-nav li.menu-item-has-children .sub-menu a:before {
               content: '';
+              text-align: right;
               display: none; }
             .navbar .navbar-nav li.menu-item-has-children .sub-menu a .menu-icon {
               top: 13px;
-              text-align: left;
+              text-align: right;
               width: 25px; }
         .navbar .navbar-nav li.menu-item-has-children.show a:before {
           content: "\f107"; }
@@ -1275,15 +1277,15 @@ header .form-inline {
     text-overflow: ellipsis; }
 
 .user-area {
-  float: right;
+  float: left;
   padding-right: 0;
   position: relative; }
   .user-area .user-menu {
     background: #fff;
     border: none;
     font-family: 'Open Sans';
-    left: inherit !important;
-    right: 0;
+    right: inherit !important;
+    left: 0;
     top: 55px !important;
     margin: 0;
     max-width: 150px;

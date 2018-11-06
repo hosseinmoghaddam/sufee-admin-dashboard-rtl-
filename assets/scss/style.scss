@@ -264,19 +264,20 @@ aside.left-panel {
                         float: left;
                         padding: 0;
                         position: absolute;
-                        left: 0;
+                        right: 30px;
                         font-size: 14px;
                         top: 9px;
                     }
                     a {
-                        padding: 2px 0 2px 30px;
+                        padding: 2px 60px 2px 0;
                         &:before {
                             content: '';
+                            text-align: right;
                             display: none;
                         }
                         .menu-icon {
                             top: 13px;
-                            text-align: left;
+                            text-align: right;
                             width: 25px;
                         }
                     }
